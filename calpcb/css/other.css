@@ -1,0 +1,338 @@
+/* Custom CSS for padding around videos on desktop screens */
+@media (min-width: 768px) {
+  /* 768px is Bootstrap's 'md' breakpoint */
+  .video-container {
+    padding: 5px; /* Half of your required padding to each side */
+  }
+  .video-container video {
+    width: 100%; /* Make the video take up the entire column width */
+    height: auto; /* Keep the video's aspect ratio */
+  }
+  header {
+  }
+}
+
+/* background: #c33764; 
+background: -webkit-linear-gradient(to bottom, #1d2671, #c33764);
+background: linear-gradient(to bottom, #1d2671, #c33764);  */
+
+.radial-gradient {
+  top: 0px;
+  left: 0px;
+
+  /*Fallback if gradeints don't work */
+  background: #7f39c6;
+  /*Linear gradient... */
+  background: radial-gradient(at center, #3498db, #9b59b6);
+}
+
+.card-black{
+  background-color: black;
+  border-radius: 25px;
+}
+
+.quote-button-black {
+  background-color: #d9d9d9;
+  color: black;
+  font-weight: 600;
+  border-radius: 25px;
+  width:100px;
+}
+
+.card-green{
+  background-color: #249696;
+  border-radius: 25px;
+}
+
+.quote-button-green {
+  background-color: #d9d9d9;
+  color: #249696;
+  font-weight: 600;
+  border-radius: 25px;
+  width:100px;
+}
+
+.card-blue{
+  background-color: #003182;
+  border-radius: 25px;
+}
+
+.quote-button-blue {
+  background-color: #d9d9d9;
+  color: #003182;
+  font-weight: 600;
+  border-radius: 25px;
+  width:100px;
+}
+
+.card-red{
+  background-color: #B20000;
+  border-radius: 25px;
+}
+
+.quote-button-red {
+  background-color: #d9d9d9;
+  color: #B20000;
+  font-weight: 600;
+  border-radius: 25px;
+  width:100px;
+}
+
+.card-images img{
+  height: 95%;
+}
+
+.card-text{
+  font-size: 13px;
+}
+
+.card{
+  height: 100%;
+}
+
+.footer-black{
+  background-color: #212529;
+}
+
+.dat{
+  color: #308AC9;
+}
+
+.address{
+  color: white;
+  font-size: 14px;
+}
+
+.menu-footer{
+  color: white;
+  font-size: 12px;  
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.menu-footer:hover{
+  color: #308AC9;
+  transition: 0.4s;
+}
+
+.menu-footer-header{
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.bi-chevron-right{
+  color: #308AC9;
+}
+
+.menu-footer-text{
+  color: white;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+
+.mail-area{
+  width: 40vh;
+  height: 5vh;
+  border-radius: 10px 0  0 10px;
+}
+
+.submit-btn {
+  height: 5vh;
+  border-radius: 0 10px 10px 0;
+  background-color: #308AC9;
+  color: white;
+}
+
+.copyright-area{
+  background-color: black;
+}
+
+.copyright{
+  font-size: 12px;
+}
+
+
+
+
+
+.testimonial-slider {
+  background: rgb(31,81,128);
+background: radial-gradient(circle, rgba(31,81,128,1) 0%, rgba(68,147,222,1) 67%, rgba(29,111,187,1) 100%);
+  padding: 3em 2em;
+}
+.testimonial-title {
+  color: #fff;
+}
+.testimonial-title h2 {
+  padding-left: 0.2em;
+}
+.card {
+  margin: 0 0.7em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  height: 100%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #fff;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  top: 60%;
+  transform: translateY(-50%);
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+@media (min-width: 576px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 50%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    left: 1em;
+    top: 90%;
+    opacity: 1;
+  }
+  .carousel-control-next {
+    left: 4.5em;
+  }
+}
+
+
+.swiper-container-wrapper--timeline .swiper-slide {
+  display: flex;
+  background: #B20000;
+  min-height: 300px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.swiper-container-wrapper--timeline .swiper-slide .container {
+  padding: 0;
+  width: 100%;
+}
+.swiper-container-wrapper--timeline .swiper-slide .title {
+  font-size: 18px;
+  opacity: 0;
+  transition: 0.5s ease 0.5s;
+}
+.swiper-container-wrapper--timeline .swiper-slide-active .title {
+  opacity: 1;
+}
+.swiper-container-wrapper--timeline .swiper-pagination-progressbar {
+  position: relative;
+  margin-bottom: 70px;
+  background-color: transparent;
+  height: 4px;
+  border-bottom: 1px solid #888;
+  width: 75%;
+}
+.swiper-container-wrapper--timeline .swiper-pagination-progressbar-fill {
+  background-color: #000;
+  height: 3px;
+  top: 2px;
+}
+.swiper-container-wrapper--timeline .swiper-pagination-progressbar:before {
+  position: absolute;
+  top: 2px;
+  left: -100%;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  content: "";
+}
+.swiper-container-wrapper--timeline .swiper-pagination-progressbar:after {
+  position: absolute;
+  top: 3px;
+  right: -100%;
+  width: 100%;
+  height: 1px;
+  background-color: #888;
+  content: "";
+}
+.swiper-container-wrapper--timeline .swiper-pagination-custom {
+  position: relative;
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  line-height: 1.66;
+  bottom: 0;
+  z-index: 11;
+  width: 75%;
+  display: flex;
+}
+.swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+}
+.swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch .switch-title {
+  position: absolute;
+  font-weight: 400;
+  right: 0;
+  transform: translateX(50%);
+  transition: 0.2s all ease-in-out;
+  transition-delay: 0s;
+  cursor: pointer;
+  z-index: 1;
+}
+.swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch .switch-title:after {
+  position: absolute;
+  top: calc(100% + 19px);
+  right: 50%;
+  transform: translateX(50%) translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background: #000;
+  border-radius: 2rem;
+  content: "";
+  transition: 0.2s all ease-in-out;
+  transition-delay: 0s;
+  z-index: 1;
+}
+.swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active .switch-title {
+  font-weight: 400;
+  transition-delay: 0.4s;
+}
+.swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active .switch-title:after {
+  background: #000;
+  width: 25px;
+  height: 25px;
+  transition-delay: 0.4s;
+}
+.swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active ~ .swiper-pagination-switch .switch-title {
+  color: #888;
+  font-weight: 16px;
+}
+.swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active ~ .swiper-pagination-switch .switch-title:after {
+  background: #888;
+}
+
+#timeline {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
