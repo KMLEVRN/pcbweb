@@ -40,7 +40,7 @@ $(document).ready(function () {
     $(multipleCardCarousel).addClass("slide");
   }
 });
-
+ 
 
 $(document).ready(function () {
     var mySwiper = new Swiper(".swiper", {
