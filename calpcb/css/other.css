@@ -207,3 +207,12 @@ background: linear-gradient(to bottom, #1d2671, #c33764);  */
     left: 4.5em;
   }
 }
+
+
+/* custom image size for the location section map image */
+
+.location-img-size {
+  max-height: 50%; /* Adjusts the height */
+  width: auto;      /* Maintains aspect ratio */
+  height: auto;     /* Maintains aspect ratio */
+}

@@ -1,15 +1,15 @@
 $primary-color: #000;
-$secondary-color: #888;
+$secondary-color: rgb(82, 82, 82);
 
-container,
-.container-timeline {
+.htmlbox,
+.bodybox {
   position: relative;
-  height: 100%;
+  // height: 100%;
   overflow: hidden;
-  background: #eee;
+  // background: #eee;
 }
 
-.container-timeline {
+.bodybox {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
@@ -20,12 +20,12 @@ container,
   &--timeline {
     .swiper-slide {
       display: flex;
-      background: #fff;
-      min-height: 300px;
+      // background: rgb(175, 16, 16);
+      min-height: 100px;
       align-items: center;
       justify-content: center;
       border-radius: 10px;
-      .container {
+      .kontainer {
         padding: 0;
         width: 100%;
       }
@@ -42,7 +42,7 @@ container,
     }
     .swiper-pagination-progressbar {
       position: relative;
-      margin-bottom: 70px;
+      margin-bottom: 15px;
       background-color: transparent;
       height: 4px;
       border-bottom: 1px solid $secondary-color;
